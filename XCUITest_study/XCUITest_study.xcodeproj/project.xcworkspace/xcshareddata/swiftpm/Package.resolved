@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "eyes-xcui-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/applitools/eyes-xcui-swift-package",
+      "state" : {
+        "revision" : "a083670cff5c87e0513d989f14f58e14996c56a1",
+        "version" : "8.9.3"
+      }
+    }
+  ],
+  "version" : 2
+}

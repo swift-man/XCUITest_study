@@ -159,6 +159,7 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 ## Scalable XCUITest Framework
 
 ## XCUITest with EyesXCUI SDK
+[eyes-xcui-swift-package](https://github.com/applitools/eyes-xcui-swift-package)  
 
 ## XCUITest on CI
 
