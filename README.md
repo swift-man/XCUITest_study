@@ -151,7 +151,8 @@ Find: Target Application 'com.swiftman.XCUITest-study'
     }
 ```
 
-## First XCUITest
+## Chapter 3. Base Class
+
 
 ## BDD + XCUITest API
 
