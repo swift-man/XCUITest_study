@@ -17,6 +17,7 @@
 		E515CE93285A048D000493B1 /* XCUITest_studyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515CE92285A048D000493B1 /* XCUITest_studyUITests.swift */; };
 		E515CE95285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515CE94285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift */; };
 		E5EB54F4285B5E5F003C6D50 /* XCUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB54F3285B5E5F003C6D50 /* XCUITestBase.swift */; };
+		E5EB54F6285B5FA8003C6D50 /* BDDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E515CE92285A048D000493B1 /* XCUITest_studyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITest_studyUITests.swift; sourceTree = "<group>"; };
 		E515CE94285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITest_studyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E5EB54F3285B5E5F003C6D50 /* XCUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBase.swift; sourceTree = "<group>"; };
+		E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				E515CE92285A048D000493B1 /* XCUITest_studyUITests.swift */,
 				E5EB54F3285B5E5F003C6D50 /* XCUITestBase.swift */,
 				E515CE94285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift */,
+				E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */,
 			);
 			path = XCUITest_studyUITests;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			files = (
 				E515CE93285A048D000493B1 /* XCUITest_studyUITests.swift in Sources */,
 				E515CE95285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift in Sources */,
+				E5EB54F6285B5FA8003C6D50 /* BDDTest.swift in Sources */,
 				E5EB54F4285B5E5F003C6D50 /* XCUITestBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
