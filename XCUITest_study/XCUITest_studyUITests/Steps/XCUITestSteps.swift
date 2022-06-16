@@ -30,7 +30,7 @@ extension XCUITestBase {
   
   func thenIShouldSeeThankYouMessage() {
     XCTContext.runActivity(named: "Then I Should See Thanks Message ") { _ in
-      XCTAssertTrue(UITestScreen.thankYouMessage.element.exists)
+      XCTAyncAssert(UITestScreen.thankYouMessage.element)
     }
   }
 }

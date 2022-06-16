@@ -22,7 +22,11 @@ enum UITestScreen: String {
     case .welcomeMessage:
       return XCUIApplication().staticTexts[rawValue]
     case .taulogo:
-      return XCUIApplication().images[rawValue]
+      if UIDevice.current.userInterfaceIdiom == .pad {
+        return XCUIApplication().images["iPad"]
+      } else {
+        return XCUIApplication().images[rawValue]
+      }
     case .enterCityLabel:
       return XCUIApplication().staticTexts[rawValue]
     case .cityTextField:

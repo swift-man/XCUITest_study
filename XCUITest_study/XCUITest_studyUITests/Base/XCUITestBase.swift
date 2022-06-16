@@ -17,5 +17,13 @@ class XCUITestBase: XCTestCase {
   
   override func tearDown() {
     super.tearDown()
+    app.terminate()
+  }
+  
+  func XCTAyncAssert(_ element: XCUIElement) {
+    let isElementExist = element.waitForExistence(timeout: 10)
+    if isElementExist {
+      XCTAssertTrue(element.exists)
+    }
   }
 }
