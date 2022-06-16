@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='XCUITest_studyUITests.xctest' tests='8' failures='6'>
+  <testsuite name='XCUITest_studyUITests.BDDTest' tests='1' failures='0'>
+    <testcase classname='XCUITest_studyUITests.BDDTest' name='testThankYouMessageInBDStyle' time='14.762'/>
+  </testsuite>
+  <testsuite name='XCUITest_studyUITests.XCUIEyesTest' tests='1' failures='1'>
+    <testcase classname='XCUITest_studyUITests.XCUIEyesTest' name='testTAUApplitoolsEyeXCUI'>
+      <failure message='Test &apos;Live Demo of EyesXCUI SDK&apos; of &apos;XCUITest_study&apos; detected differences! See details at: https://eyes.applitools.com/app/test-results/00000251746901630098/00000251746901629973?accountId=gLaE5U9w_k6xILjSt0N4tg__ (DiffsFoundException)'>
+        /Users/kim_seung_jin/개발/XCUITest_study/XCUITest_study/XCUITest_studyUITests/Base/XCUITestBase.swift:29
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name='XCUITest_studyUITests.XCUITest_studyUITests' tests='2' failures='1'>
+    <testcase classname='XCUITest_studyUITests.XCUITest_studyUITests' name='testAllElementsonMainScreen' time='3.484'/>
+    <testcase classname='XCUITest_studyUITests.XCUITest_studyUITests' name='testThankYouMessage'>
+      <failure message='XCTAssertTrue failed'>
+        /Users/kim_seung_jin/개발/XCUITest_study/XCUITest_study/XCUITest_studyUITests/Tests/XCUITest_studyUITests.swift:24
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name='XCUITest_studyUITests.XCUITest_studyUITestsLaunchTests' tests='4' failures='4'>
+    <testcase classname='XCUITest_studyUITests.XCUITest_studyUITestsLaunchTests' name='testLaunch'>
+      <failure message='*** -[__NSCFString stringByAppendingPathExtension:]: nil argument (NSInvalidArgumentException)'>
+        /Users/kim_seung_jin/개발/XCUITest_study/XCUITest_study/XCUITest_studyUITests/Tests/XCUITest_studyUITestsLaunchTests.swift:27
+      </failure>
+    </testcase>
+    <testcase classname='XCUITest_studyUITests.XCUITest_studyUITestsLaunchTests' name='testLaunch'>
+      <failure message='*** -[__NSCFString stringByAppendingPathExtension:]: nil argument (NSInvalidArgumentException)'>
+        /Users/kim_seung_jin/개발/XCUITest_study/XCUITest_study/XCUITest_studyUITests/Tests/XCUITest_studyUITestsLaunchTests.swift:27
+      </failure>
+    </testcase>
+    <testcase classname='XCUITest_studyUITests.XCUITest_studyUITestsLaunchTests' name='testLaunch'>
+      <failure message='*** -[__NSCFString stringByAppendingPathExtension:]: nil argument (NSInvalidArgumentException)'>
+        /Users/kim_seung_jin/개발/XCUITest_study/XCUITest_study/XCUITest_studyUITests/Tests/XCUITest_studyUITestsLaunchTests.swift:27
+      </failure>
+    </testcase>
+    <testcase classname='XCUITest_studyUITests.XCUITest_studyUITestsLaunchTests' name='testLaunch'>
+      <failure message='*** -[__NSCFString stringByAppendingPathExtension:]: nil argument (NSInvalidArgumentException)'>
+        /Users/kim_seung_jin/개발/XCUITest_study/XCUITest_study/XCUITest_studyUITests/Tests/XCUITest_studyUITestsLaunchTests.swift:27
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
