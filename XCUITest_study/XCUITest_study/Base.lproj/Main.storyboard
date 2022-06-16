@@ -1,24 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Fb-cU-Otj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="Mh5-5f-hf1">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="6Fb-cU-Otj" customClass="ViewController" customModule="TAU" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AGp-9m-m49">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your City " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erl-lQ-rPr" userLabel="enter City">
+                                <rect key="frame" x="109" y="324.5" width="171" height="32"/>
+                                <accessibility key="accessibilityConfiguration" identifier="enterCity"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hSK-9b-bTG" userLabel="city Value">
+                                <rect key="frame" x="189" y="422.5" width="36" height="51.5"/>
+                                <accessibility key="accessibilityConfiguration" identifier="city"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdO-uP-o2D" userLabel="enroll">
+                                <rect key="frame" x="25" y="542" width="369" height="41"/>
+                                <color key="backgroundColor" red="1" green="0.4687319969" blue="0.2631141729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="enrollButton"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <size key="titleShadowOffset" width="1" height="0.0"/>
+                                <state key="normal" title="Enroll">
+                                    <color key="titleColor" red="1" green="0.94867268869999999" blue="0.18101593690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="enrollButton:" destination="6Fb-cU-Otj" eventType="touchUpInside" id="lVD-d1-DV1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6I-cV-raX" userLabel="thanks Message">
+                                <rect key="frame" x="25" y="651" width="369" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TAU" translatesAutoresizingMaskIntoConstraints="NO" id="SuX-lG-GCH">
+                                <rect key="frame" x="164" y="710" width="90" height="90"/>
+                                <accessibility key="accessibilityConfiguration" identifier="TAUlogo">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to XCUITest Course " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Src-LG-UPy" userLabel="welcome ToXCUI Test">
+                                <rect key="frame" x="68" y="224.5" width="285" height="26.5"/>
+                                <color key="backgroundColor" red="0.27145191120000001" green="1" blue="0.12615127810000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="welcomeMessage"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Aii-ha-Q3l"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="g6I-cV-raX" firstAttribute="leading" secondItem="Aii-ha-Q3l" secondAttribute="leading" constant="25" id="1cu-is-Bvc"/>
+                            <constraint firstItem="Src-LG-UPy" firstAttribute="centerY" secondItem="AGp-9m-m49" secondAttribute="centerY" constant="-210.5" id="D27-Ny-kCk"/>
+                            <constraint firstItem="hSK-9b-bTG" firstAttribute="centerY" secondItem="AGp-9m-m49" secondAttribute="centerY" id="DSQ-md-Slu"/>
+                            <constraint firstItem="Src-LG-UPy" firstAttribute="centerX" secondItem="AGp-9m-m49" secondAttribute="centerX" constant="3.5" id="FT2-Tz-4E7"/>
+                            <constraint firstItem="Aii-ha-Q3l" firstAttribute="trailing" secondItem="g6I-cV-raX" secondAttribute="trailing" constant="20" id="J9a-lS-Iyy"/>
+                            <constraint firstItem="g6I-cV-raX" firstAttribute="top" secondItem="fdO-uP-o2D" secondAttribute="bottom" constant="68" id="Qig-qa-K4g"/>
+                            <constraint firstItem="Aii-ha-Q3l" firstAttribute="trailing" secondItem="fdO-uP-o2D" secondAttribute="trailing" constant="20" id="Qt5-zQ-Bax"/>
+                            <constraint firstItem="hSK-9b-bTG" firstAttribute="centerX" secondItem="AGp-9m-m49" secondAttribute="centerX" id="Vbr-CK-bOW"/>
+                            <constraint firstItem="SuX-lG-GCH" firstAttribute="centerX" secondItem="AGp-9m-m49" secondAttribute="centerX" constant="2" id="VrE-wB-fTM"/>
+                            <constraint firstItem="erl-lQ-rPr" firstAttribute="centerY" secondItem="AGp-9m-m49" secondAttribute="centerY" constant="-107.5" id="WlD-5P-0mI"/>
+                            <constraint firstItem="SuX-lG-GCH" firstAttribute="centerY" secondItem="AGp-9m-m49" secondAttribute="centerY" constant="307" id="Y1n-XR-tkh"/>
+                            <constraint firstItem="fdO-uP-o2D" firstAttribute="leading" secondItem="Aii-ha-Q3l" secondAttribute="leading" constant="25" id="YZl-Iv-xbh"/>
+                            <constraint firstItem="erl-lQ-rPr" firstAttribute="centerX" secondItem="AGp-9m-m49" secondAttribute="centerX" constant="-12.5" id="bop-bX-bnZ"/>
+                            <constraint firstItem="fdO-uP-o2D" firstAttribute="top" secondItem="hSK-9b-bTG" secondAttribute="bottom" constant="68" id="btg-MZ-js7"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="CityValue" destination="hSK-9b-bTG" id="C9k-Nv-vV1"/>
+                        <outlet property="EnterCity" destination="erl-lQ-rPr" id="djR-TM-m7N"/>
+                        <outlet property="ThanksMessage" destination="g6I-cV-raX" id="KqK-Jw-Utk"/>
+                        <outlet property="WelcomeToXCUITest" destination="Src-LG-UPy" id="OOa-5P-S8f"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oQD-nX-4hN" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="103.89805097451276"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TAU" width="90" height="90"/>
+    </resources>
 </document>
