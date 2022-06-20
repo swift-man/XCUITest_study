@@ -15,11 +15,8 @@
 		E515CE7E285A048D000493B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E515CE7C285A048D000493B1 /* LaunchScreen.storyboard */; };
 		E515CE89285A048D000493B1 /* XCUITest_studyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515CE88285A048D000493B1 /* XCUITest_studyTests.swift */; };
 		E515CE93285A048D000493B1 /* XCUITest_studyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515CE92285A048D000493B1 /* XCUITest_studyUITests.swift */; };
-		E515CE95285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515CE94285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift */; };
 		E58A3D4F285B8141008C828E /* XCUITestSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A3D4E285B8141008C828E /* XCUITestSteps.swift */; };
 		E58A3D51285B814C008C828E /* XCUITestElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A3D50285B814C008C828E /* XCUITestElements.swift */; };
-		E58A3D58285B8A06008C828E /* EyesXCUI in Frameworks */ = {isa = PBXBuildFile; productRef = E58A3D57285B8A06008C828E /* EyesXCUI */; };
-		E58A3D5A285B8A91008C828E /* XCUITestEyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A3D59285B8A91008C828E /* XCUITestEyesTests.swift */; };
 		E5EB54F4285B5E5F003C6D50 /* XCUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB54F3285B5E5F003C6D50 /* XCUITestBase.swift */; };
 		E5EB54F6285B5FA8003C6D50 /* BDDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */; };
 /* End PBXBuildFile section */
@@ -54,10 +51,9 @@
 		E515CE88285A048D000493B1 /* XCUITest_studyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITest_studyTests.swift; sourceTree = "<group>"; };
 		E515CE8E285A048D000493B1 /* XCUITest_studyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITest_studyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E515CE92285A048D000493B1 /* XCUITest_studyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITest_studyUITests.swift; sourceTree = "<group>"; };
-		E515CE94285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITest_studyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E58A3D4E285B8141008C828E /* XCUITestSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestSteps.swift; sourceTree = "<group>"; };
 		E58A3D50285B814C008C828E /* XCUITestElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestElements.swift; sourceTree = "<group>"; };
-		E58A3D59285B8A91008C828E /* XCUITestEyesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestEyesTests.swift; sourceTree = "<group>"; };
+		E58AC6782860CDFE00FAAE04 /* XCUITest_study.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XCUITest_study.entitlements; sourceTree = "<group>"; };
 		E5EB54F3285B5E5F003C6D50 /* XCUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBase.swift; sourceTree = "<group>"; };
 		E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E58A3D58285B8A06008C828E /* EyesXCUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +106,7 @@
 		E515CE70285A048A000493B1 /* XCUITest_study */ = {
 			isa = PBXGroup;
 			children = (
+				E58AC6782860CDFE00FAAE04 /* XCUITest_study.entitlements */,
 				E515CE71285A048A000493B1 /* AppDelegate.swift */,
 				E515CE73285A048A000493B1 /* SceneDelegate.swift */,
 				E515CE75285A048A000493B1 /* ViewController.swift */,
@@ -170,8 +166,6 @@
 			children = (
 				E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */,
 				E515CE92285A048D000493B1 /* XCUITest_studyUITests.swift */,
-				E515CE94285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift */,
-				E58A3D59285B8A91008C828E /* XCUITestEyesTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -229,7 +223,6 @@
 			);
 			name = XCUITest_studyUITests;
 			packageProductDependencies = (
-				E58A3D57285B8A06008C828E /* EyesXCUI */,
 			);
 			productName = XCUITest_studyUITests;
 			productReference = E515CE8E285A048D000493B1 /* XCUITest_studyUITests.xctest */;
@@ -268,7 +261,6 @@
 			);
 			mainGroup = E515CE65285A048A000493B1;
 			packageReferences = (
-				E58A3D56285B8A06008C828E /* XCRemoteSwiftPackageReference "eyes-xcui-swift-package" */,
 			);
 			productRefGroup = E515CE6F285A048A000493B1 /* Products */;
 			projectDirPath = "";
@@ -332,9 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58A3D4F285B8141008C828E /* XCUITestSteps.swift in Sources */,
-				E58A3D5A285B8A91008C828E /* XCUITestEyesTests.swift in Sources */,
 				E515CE93285A048D000493B1 /* XCUITest_studyUITests.swift in Sources */,
-				E515CE95285A048D000493B1 /* XCUITest_studyUITestsLaunchTests.swift in Sources */,
 				E58A3D51285B814C008C828E /* XCUITestElements.swift in Sources */,
 				E5EB54F6285B5FA8003C6D50 /* BDDTest.swift in Sources */,
 				E5EB54F4285B5E5F003C6D50 /* XCUITestBase.swift in Sources */,
@@ -495,6 +485,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XCUITest_study/XCUITest_study.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7YQUS95SK;
@@ -513,6 +505,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftman.XCUITest-study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,6 +518,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XCUITest_study/XCUITest_study.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7YQUS95SK;
@@ -542,6 +538,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftman.XCUITest-study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -664,25 +662,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E58A3D56285B8A06008C828E /* XCRemoteSwiftPackageReference "eyes-xcui-swift-package" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/applitools/eyes-xcui-swift-package";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E58A3D57285B8A06008C828E /* EyesXCUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E58A3D56285B8A06008C828E /* XCRemoteSwiftPackageReference "eyes-xcui-swift-package" */;
-			productName = EyesXCUI;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E515CE66285A048A000493B1 /* Project object */;
 }
