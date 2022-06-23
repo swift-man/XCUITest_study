@@ -174,6 +174,11 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 
 [swift-snapshot-testing](https://github.com/pointfreeco/swift-snapshot-testing)  
 
+[AXSnapshot](https://github.com/banksalad/AXSnapshot/blob/main/Sources/AXSnapshot/AXSnapshot.swift)  
+
+[xcparse](https://github.com/ChargePoint/xcparse)  
+
+
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 3편 - 스펙별 단위 테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-3/)  
 
 # GithubAction
