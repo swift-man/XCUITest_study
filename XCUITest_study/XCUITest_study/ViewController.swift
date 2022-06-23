@@ -31,6 +31,12 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     thanksMessage.isHidden = true
     
+    let testView = TestView()
+    testView.translatesAutoresizingMaskIntoConstraints = false
+    view.addSubview(testView)
+    
+    testView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: -10).isActive = true
+    testView.topAnchor.constraint(equalTo: view.topAnchor, constant: 10).isActive = true
   }
 }
 

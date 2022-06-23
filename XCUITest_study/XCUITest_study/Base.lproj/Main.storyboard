@@ -16,20 +16,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your City " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erl-lQ-rPr" userLabel="enter City">
-                                <rect key="frame" x="109" y="580.5" width="171" height="32"/>
+                                <rect key="frame" x="109" y="90.5" width="171" height="32"/>
                                 <accessibility key="accessibilityConfiguration" identifier="enterCity"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hSK-9b-bTG" userLabel="city Value">
-                                <rect key="frame" x="189" y="622.5" width="36" height="51.5"/>
+                                <rect key="frame" x="189" y="132.5" width="36" height="51.5"/>
                                 <accessibility key="accessibilityConfiguration" identifier="city"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdO-uP-o2D" userLabel="enroll">
-                                <rect key="frame" x="25" y="684" width="369" height="41"/>
+                                <rect key="frame" x="25" y="194" width="369" height="41"/>
                                 <color key="backgroundColor" red="1" green="0.4687319969" blue="0.2631141729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" identifier="enrollButton"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -42,19 +42,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6I-cV-raX" userLabel="thanks Message">
-                                <rect key="frame" x="25" y="735" width="369" height="27.5"/>
+                                <rect key="frame" x="25" y="245" width="369" height="27.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TAU" translatesAutoresizingMaskIntoConstraints="NO" id="SuX-lG-GCH">
-                                <rect key="frame" x="164" y="772.5" width="90" height="90"/>
+                                <rect key="frame" x="164" y="282.5" width="90" height="90"/>
                                 <accessibility key="accessibilityConfiguration" identifier="TAUlogo">
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to XCUITest Course " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Src-LG-UPy" userLabel="welcome ToXCUI Test">
-                                <rect key="frame" x="68" y="544" width="285" height="26.5"/>
+                                <rect key="frame" x="68" y="54" width="285" height="26.5"/>
                                 <color key="backgroundColor" red="0.27145191120000001" green="1" blue="0.12615127810000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" identifier="welcomeMessage"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -78,7 +78,7 @@
                             <constraint firstItem="hSK-9b-bTG" firstAttribute="top" secondItem="erl-lQ-rPr" secondAttribute="bottom" constant="10" id="cH0-dn-IOp"/>
                             <constraint firstItem="erl-lQ-rPr" firstAttribute="top" secondItem="Src-LG-UPy" secondAttribute="bottom" constant="10" id="q6q-9Y-tjS"/>
                             <constraint firstItem="SuX-lG-GCH" firstAttribute="top" secondItem="g6I-cV-raX" secondAttribute="bottom" constant="10" id="rOJ-n4-6kg"/>
-                            <constraint firstItem="Src-LG-UPy" firstAttribute="top" secondItem="Aii-ha-Q3l" secondAttribute="top" constant="500" id="t3t-8h-GK6"/>
+                            <constraint firstItem="Src-LG-UPy" firstAttribute="top" secondItem="Aii-ha-Q3l" secondAttribute="top" constant="10" id="t3t-8h-GK6"/>
                         </constraints>
                     </view>
                     <connections>
