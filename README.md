@@ -172,6 +172,8 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 2편 - 화면 단위 통합 테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-2/)  
 
+[swift-snapshot-testing](https://github.com/pointfreeco/swift-snapshot-testing)  
+
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 3편 - 스펙별 단위 테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-3/)  
 
 # GithubAction
