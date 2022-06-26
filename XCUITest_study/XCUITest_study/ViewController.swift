@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import Reusable
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, StoryboardBased {
   @IBOutlet weak var welcomeToXCUITest: UILabel!
   @IBOutlet weak var enterCity: UILabel!
   @IBOutlet weak var cityValue: UITextField!

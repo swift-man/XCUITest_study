@@ -10,7 +10,7 @@
 		E515CE72285A048A000493B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515CE71285A048A000493B1 /* AppDelegate.swift */; };
 		E515CE74285A048A000493B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515CE73285A048A000493B1 /* SceneDelegate.swift */; };
 		E515CE76285A048A000493B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515CE75285A048A000493B1 /* ViewController.swift */; };
-		E515CE79285A048A000493B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E515CE77285A048A000493B1 /* Main.storyboard */; };
+		E515CE79285A048A000493B1 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E515CE77285A048A000493B1 /* ViewController.storyboard */; };
 		E515CE7B285A048D000493B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E515CE7A285A048D000493B1 /* Assets.xcassets */; };
 		E515CE7E285A048D000493B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E515CE7C285A048D000493B1 /* LaunchScreen.storyboard */; };
 		E515CE89285A048D000493B1 /* XCUITest_studyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515CE88285A048D000493B1 /* XCUITest_studyTests.swift */; };
@@ -21,6 +21,10 @@
 		E58A3D4F285B8141008C828E /* XCUITestSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A3D4E285B8141008C828E /* XCUITestSteps.swift */; };
 		E58A3D51285B814C008C828E /* XCUITestElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58A3D50285B814C008C828E /* XCUITestElements.swift */; };
 		E5B07C4F2868A29100A738C2 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = E5B07C4E2868A29100A738C2 /* SnapshotTesting */; };
+		E5B07C512868AAD500A738C2 /* XCUITest_AssetSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B07C502868AAD500A738C2 /* XCUITest_AssetSnapshotTests.swift */; };
+		E5B07C542868AB8500A738C2 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = E5B07C532868AB8500A738C2 /* Reusable */; };
+		E5B07C572868AB9500A738C2 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = E5B07C562868AB9500A738C2 /* Reusable */; };
+		E5B07C582868AC7200A738C2 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E515CE77285A048A000493B1 /* ViewController.storyboard */; };
 		E5B9CF2D2864F0D40070A9F5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FC1042864E23500DDDC47 /* TestView.swift */; };
 		E5EB54F4285B5E5F003C6D50 /* XCUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB54F3285B5E5F003C6D50 /* XCUITestBase.swift */; };
 		E5EB54F6285B5FA8003C6D50 /* BDDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */; };
@@ -48,7 +52,7 @@
 		E515CE71285A048A000493B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E515CE73285A048A000493B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E515CE75285A048A000493B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E515CE78285A048A000493B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E515CE78285A048A000493B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ViewController.storyboard; sourceTree = "<group>"; };
 		E515CE7A285A048D000493B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E515CE7D285A048D000493B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E515CE7F285A048D000493B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 		E58A3D4E285B8141008C828E /* XCUITestSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestSteps.swift; sourceTree = "<group>"; };
 		E58A3D50285B814C008C828E /* XCUITestElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestElements.swift; sourceTree = "<group>"; };
 		E58AC6782860CDFE00FAAE04 /* XCUITest_study.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XCUITest_study.entitlements; sourceTree = "<group>"; };
+		E5B07C502868AAD500A738C2 /* XCUITest_AssetSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITest_AssetSnapshotTests.swift; sourceTree = "<group>"; };
 		E5EB54F3285B5E5F003C6D50 /* XCUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBase.swift; sourceTree = "<group>"; };
 		E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B07C542868AB8500A738C2 /* Reusable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B07C4F2868A29100A738C2 /* SnapshotTesting in Frameworks */,
+				E5B07C572868AB9500A738C2 /* Reusable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +126,7 @@
 				E515CE73285A048A000493B1 /* SceneDelegate.swift */,
 				E515CE75285A048A000493B1 /* ViewController.swift */,
 				E57FC1042864E23500DDDC47 /* TestView.swift */,
-				E515CE77285A048A000493B1 /* Main.storyboard */,
+				E515CE77285A048A000493B1 /* ViewController.storyboard */,
 				E515CE7A285A048D000493B1 /* Assets.xcassets */,
 				E515CE7C285A048D000493B1 /* LaunchScreen.storyboard */,
 				E515CE7F285A048D000493B1 /* Info.plist */,
@@ -176,6 +183,7 @@
 				E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */,
 				E515CE92285A048D000493B1 /* XCUITest_studyUITests.swift */,
 				E57FC1062864E48600DDDC47 /* XCUITest_screenshotTests.swift */,
+				E5B07C502868AAD500A738C2 /* XCUITest_AssetSnapshotTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -196,6 +204,9 @@
 			dependencies = (
 			);
 			name = XCUITest_study;
+			packageProductDependencies = (
+				E5B07C532868AB8500A738C2 /* Reusable */,
+			);
 			productName = XCUITest_study;
 			productReference = E515CE6E285A048A000493B1 /* XCUITest_study.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +245,7 @@
 			name = XCUITest_studyUITests;
 			packageProductDependencies = (
 				E5B07C4E2868A29100A738C2 /* SnapshotTesting */,
+				E5B07C562868AB9500A738C2 /* Reusable */,
 			);
 			productName = XCUITest_studyUITests;
 			productReference = E515CE8E285A048D000493B1 /* XCUITest_studyUITests.xctest */;
@@ -273,6 +285,8 @@
 			mainGroup = E515CE65285A048A000493B1;
 			packageReferences = (
 				E5B07C4D2868A29100A738C2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				E5B07C522868AB8500A738C2 /* XCRemoteSwiftPackageReference "Reusable" */,
+				E5B07C552868AB9500A738C2 /* XCRemoteSwiftPackageReference "Reusable" */,
 			);
 			productRefGroup = E515CE6F285A048A000493B1 /* Products */;
 			projectDirPath = "";
@@ -292,7 +306,7 @@
 			files = (
 				E515CE7E285A048D000493B1 /* LaunchScreen.storyboard in Resources */,
 				E515CE7B285A048D000493B1 /* Assets.xcassets in Resources */,
-				E515CE79285A048A000493B1 /* Main.storyboard in Resources */,
+				E515CE79285A048A000493B1 /* ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B07C582868AC7200A738C2 /* ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B9CF2D2864F0D40070A9F5 /* TestView.swift in Sources */,
+				E5B07C512868AAD500A738C2 /* XCUITest_AssetSnapshotTests.swift in Sources */,
 				E58A3D4F285B8141008C828E /* XCUITestSteps.swift in Sources */,
 				E515CE93285A048D000493B1 /* XCUITest_studyUITests.swift in Sources */,
 				E58A3D51285B814C008C828E /* XCUITestElements.swift in Sources */,
@@ -363,12 +379,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E515CE77285A048A000493B1 /* Main.storyboard */ = {
+		E515CE77285A048A000493B1 /* ViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E515CE78285A048A000493B1 /* Base */,
 			);
-			name = Main.storyboard;
+			name = ViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		E515CE7C285A048D000493B1 /* LaunchScreen.storyboard */ = {
@@ -510,7 +526,7 @@
 				INFOPLIST_FILE = XCUITest_study/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -543,7 +559,7 @@
 				INFOPLIST_FILE = XCUITest_study/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -688,6 +704,22 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		E5B07C522868AB8500A738C2 /* XCRemoteSwiftPackageReference "Reusable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/Reusable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		E5B07C552868AB9500A738C2 /* XCRemoteSwiftPackageReference "Reusable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/Reusable";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -695,6 +727,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E5B07C4D2868A29100A738C2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
+		};
+		E5B07C532868AB8500A738C2 /* Reusable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5B07C522868AB8500A738C2 /* XCRemoteSwiftPackageReference "Reusable" */;
+			productName = Reusable;
+		};
+		E5B07C562868AB9500A738C2 /* Reusable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5B07C552868AB9500A738C2 /* XCRemoteSwiftPackageReference "Reusable" */;
+			productName = Reusable;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
