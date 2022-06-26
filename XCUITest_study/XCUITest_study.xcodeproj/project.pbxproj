@@ -25,6 +25,9 @@
 		E5B07C542868AB8500A738C2 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = E5B07C532868AB8500A738C2 /* Reusable */; };
 		E5B07C572868AB9500A738C2 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = E5B07C562868AB9500A738C2 /* Reusable */; };
 		E5B07C582868AC7200A738C2 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E515CE77285A048A000493B1 /* ViewController.storyboard */; };
+		E5B07C5B2868AEFA00A738C2 /* AXSnapshot in Frameworks */ = {isa = PBXBuildFile; productRef = E5B07C5A2868AEFA00A738C2 /* AXSnapshot */; };
+		E5B07C5D2868AF2F00A738C2 /* XCUITest_AXSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B07C5C2868AF2F00A738C2 /* XCUITest_AXSnapshotTests.swift */; };
+		E5B07C5E2868B0A600A738C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E515CE7A285A048D000493B1 /* Assets.xcassets */; };
 		E5B9CF2D2864F0D40070A9F5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FC1042864E23500DDDC47 /* TestView.swift */; };
 		E5EB54F4285B5E5F003C6D50 /* XCUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB54F3285B5E5F003C6D50 /* XCUITestBase.swift */; };
 		E5EB54F6285B5FA8003C6D50 /* BDDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */; };
@@ -66,6 +69,7 @@
 		E58A3D50285B814C008C828E /* XCUITestElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestElements.swift; sourceTree = "<group>"; };
 		E58AC6782860CDFE00FAAE04 /* XCUITest_study.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XCUITest_study.entitlements; sourceTree = "<group>"; };
 		E5B07C502868AAD500A738C2 /* XCUITest_AssetSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITest_AssetSnapshotTests.swift; sourceTree = "<group>"; };
+		E5B07C5C2868AF2F00A738C2 /* XCUITest_AXSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITest_AXSnapshotTests.swift; sourceTree = "<group>"; };
 		E5EB54F3285B5E5F003C6D50 /* XCUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBase.swift; sourceTree = "<group>"; };
 		E5EB54F5285B5FA8003C6D50 /* BDDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +96,7 @@
 			files = (
 				E5B07C4F2868A29100A738C2 /* SnapshotTesting in Frameworks */,
 				E5B07C572868AB9500A738C2 /* Reusable in Frameworks */,
+				E5B07C5B2868AEFA00A738C2 /* AXSnapshot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +189,7 @@
 				E515CE92285A048D000493B1 /* XCUITest_studyUITests.swift */,
 				E57FC1062864E48600DDDC47 /* XCUITest_screenshotTests.swift */,
 				E5B07C502868AAD500A738C2 /* XCUITest_AssetSnapshotTests.swift */,
+				E5B07C5C2868AF2F00A738C2 /* XCUITest_AXSnapshotTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			packageProductDependencies = (
 				E5B07C4E2868A29100A738C2 /* SnapshotTesting */,
 				E5B07C562868AB9500A738C2 /* Reusable */,
+				E5B07C5A2868AEFA00A738C2 /* AXSnapshot */,
 			);
 			productName = XCUITest_studyUITests;
 			productReference = E515CE8E285A048D000493B1 /* XCUITest_studyUITests.xctest */;
@@ -287,6 +294,7 @@
 				E5B07C4D2868A29100A738C2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 				E5B07C522868AB8500A738C2 /* XCRemoteSwiftPackageReference "Reusable" */,
 				E5B07C552868AB9500A738C2 /* XCRemoteSwiftPackageReference "Reusable" */,
+				E5B07C592868AEFA00A738C2 /* XCRemoteSwiftPackageReference "AXSnapshot" */,
 			);
 			productRefGroup = E515CE6F285A048A000493B1 /* Products */;
 			projectDirPath = "";
@@ -321,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B07C5E2868B0A600A738C2 /* Assets.xcassets in Resources */,
 				E5B07C582868AC7200A738C2 /* ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +363,7 @@
 				E5B9CF2D2864F0D40070A9F5 /* TestView.swift in Sources */,
 				E5B07C512868AAD500A738C2 /* XCUITest_AssetSnapshotTests.swift in Sources */,
 				E58A3D4F285B8141008C828E /* XCUITestSteps.swift in Sources */,
+				E5B07C5D2868AF2F00A738C2 /* XCUITest_AXSnapshotTests.swift in Sources */,
 				E515CE93285A048D000493B1 /* XCUITest_studyUITests.swift in Sources */,
 				E58A3D51285B814C008C828E /* XCUITestElements.swift in Sources */,
 				E5EB54F6285B5FA8003C6D50 /* BDDTest.swift in Sources */,
@@ -720,6 +730,14 @@
 				kind = branch;
 			};
 		};
+		E5B07C592868AEFA00A738C2 /* XCRemoteSwiftPackageReference "AXSnapshot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/banksalad/AXSnapshot";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -737,6 +755,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E5B07C552868AB9500A738C2 /* XCRemoteSwiftPackageReference "Reusable" */;
 			productName = Reusable;
+		};
+		E5B07C5A2868AEFA00A738C2 /* AXSnapshot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5B07C592868AEFA00A738C2 /* XCRemoteSwiftPackageReference "AXSnapshot" */;
+			productName = AXSnapshot;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
