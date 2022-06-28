@@ -17,6 +17,6 @@ jobs:
         run: sudo xcode-select -switch /Applications/Xcode.app
       - name: iOS build setup
         run: >-
-          xcodebuild test -workspace XCUITest_study.xcworkspace
+          xcodebuild test -workspace XCUITest_study/XCUITest_study.xcworkspace
           -scheme XCUITest_studyUITests -destination 'platform=iOS Simulator,name=iPhone SE (3rd generation),OS=15.5'
       
