@@ -24,12 +24,11 @@ jobs:
         run: >-
           xcodebuild test -workspace XCUITest_study/XCUITest_study.xcworkspace
           -scheme XCUITest_studyUITests -destination 'platform=iOS Simulator,name=iPhone SE (2nd generation),OS=15.2'
-  slackNotification:
-    name: Slack Notification
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Slack Notification
-      uses: rtCamp/action-slack-notify@v2
-      env:
-        SLACK_WEBHOOK: https://hooks.slack.com/services/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
+      - name: action-slack
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          author_name: Github Action Test # default: 8398a7@action-slack
+          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
