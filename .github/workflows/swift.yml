@@ -23,7 +23,7 @@ jobs:
       - name: iOS build setup
         run: >-
           xcodebuild test -workspace XCUITest_study/XCUITest_study.xcworkspace
-          -scheme XCUITest_studyUITests -destination 'platform=iOS Simulator,name=iPhone SE (3rd generation),OS=15.2'
+          -scheme XCUITest_studyUITests -destination 'platform=iOS Simulator,name=iPhone SE (2nd generation),OS=15.2'
       
   run-shell-command:
     runs-on: ubuntu-latest
