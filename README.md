@@ -166,6 +166,8 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 
 ## XCUITest on CI
 
+# TestPlans
+[Xcode Test Plans](https://useyourloaf.com/blog/xcode-test-plans/)
  
 # ResultBundle
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 1편 - 통합 UI테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-1/)  
@@ -182,6 +184,32 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 3편 - 스펙별 단위 테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-3/)  
 
 # GithubAction
+## docs.github
+[Building and testing Swift](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift)  
+[job-context](https://docs.github.com/en/actions/learn-github-actions/contexts#job-context)  
+[Events that trigger workflows](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
+
+## UITesting
+[About self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners)  
 [Swift UI Testing on GitHub Actions CI](https://medium.com/swlh/swift-ui-testing-on-github-actions-ci-6267e6620104)  
 
 [How to Automate XCTests With GitHub Actions](https://betterprogramming.pub/how-to-automate-xctests-with-github-actions-6570fcd21519)  
+
+## starter-workflows
+[starter-workflows](https://github.com/actions/starter-workflows/issues)  
+
+## marketplace
+[Setup Xcode version](https://github.com/marketplace/actions/setup-xcode-version)
+[Xcodebuild Action](https://github.com/marketplace/actions/xcodebuild-action)
+
+## setup
+[GitbugAction1](https://eeyatho.tistory.com/89?category=976382)  
+[GitbugAction2](https://eeyatho.tistory.com/105)  
+
+## schedule
+[Github 액션으로 스케쥴링 작업하기](https://yceffort.kr/2020/07/cron-job-with-github-actions)
+
+## SlackHook
+[Github Action과 Slack 연동해서 빌드 결과 받기](https://velog.io/@tigger/Github-Action-Slack%EA%B3%BC-%EC%97%B0%EB%8F%99%ED%95%B4%EC%84%9C-%EB%B9%8C%EB%93%9C-%EA%B2%B0%EA%B3%BC-%EB%B0%9B%EA%B8%B0)  
+[Slack Notification from Github Actions — Mac Nodes or Otherwise!](https://sandeepqaops.medium.com/slack-notification-from-github-actions-mac-nodes-or-otherwise-98601d4c53ad)  
+[Slack Notify](https://github.com/marketplace/actions/slack-notify)  
