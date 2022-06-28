@@ -17,7 +17,7 @@ jobs:
         run: sudo xcode-select -switch /Applications/Xcode.app
       - name: Install Dependencies
         run: |
-          cd Example
+          cd XCUITest_study
           pod install --repo-update
         shell: bash
       - name: iOS build setup
