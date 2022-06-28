@@ -1,0 +1,22 @@
+name: iOS Test Workflow
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    name: Build and Test default scheme using iPhone/iPad simulator
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Force Xcode
+        run: sudo xcode-select -switch /Applications/Xcode.app
+      - name: iOS build setup
+        run: >-
+          xcodebuild test -workspace XCUITest_study.xcworkspace
+          -scheme XCUITest_studyUITests -destination 'platform=iOS Simulator,name=iPhone SE (3rd generation),OS=15.5'
+      
