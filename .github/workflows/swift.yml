@@ -25,3 +25,12 @@ jobs:
           xcodebuild test -workspace XCUITest_study/XCUITest_study.xcworkspace
           -scheme XCUITest_studyUITests -destination 'platform=iOS Simulator,name=iPhone SE (3rd generation),OS=15.2'
       
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "run-shell-command!"
+      - name: multiline script
+        run: |
+          cd XCUITest_study
+          sh runSnapshotTest.sh
