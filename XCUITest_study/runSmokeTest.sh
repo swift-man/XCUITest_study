@@ -29,6 +29,5 @@ xcodebuild -workspace XCUITest_study.xcworkspace \
   -destination "platform=iOS Simulator,id=$SIMULATOR_ID" \
   -testPlan SmokeTests \
   -derivedDataPath build/ \
-  # 👇 테스트 실패시, CI에 업로드하기 편하도록, resultBundle이 저장되는 위치를 지정합니다.
   -resultBundlePath resultBundle \
   test

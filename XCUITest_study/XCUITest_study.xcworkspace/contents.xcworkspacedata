@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SmokeTests.xctestplan">
+      location = "group:XCUITest_study.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:XCUITest_study.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
