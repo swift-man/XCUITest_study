@@ -163,11 +163,21 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 [eyes-xcui-swift-package](https://github.com/applitools/eyes-xcui-swift-package)  
 [applitools.com/tutorials](https://applitools.com/tutorials/xcui-swift.html#install-the-sdk)   
 
+## Attachments to Tests
+[Adding Attachments to Tests, Activities, and Issues](https://developer.apple.com/documentation/xctest/activities_and_attachments/adding_attachments_to_tests_activities_and_issues)
 
 ## XCUITest on CI
+[Creating automated Screenshots using XCUITest](https://blog.winsmith.de/english/ios/2020/04/14/xcuitest-screenshots.html)  
+[Swift UI Testing on GitHub Actions CI](https://medium.com/swlh/swift-ui-testing-on-github-actions-ci-6267e6620104)  
+
+# xcodebuild
+[Building Swift Packages or Apps that Use Them in Continuous Integration Workflows](https://developer.apple.com/documentation/xcode/building-swift-packages-or-apps-that-use-them-in-continuous-integration-workflows)  
+[Command Line Tool을 사용하여 Xcode 프로젝트를 빌드 및 테스트 하기](https://velog.io/@devapploper/Command-Line-Tool%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-Xcode-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EB%B9%8C%EB%93%9C-%EB%B0%8F-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%98%EA%B8%B0)  
+[xcodebuild](https://liveupdate.tistory.com/375)  
 
 # TestPlans
-[Xcode Test Plans](https://useyourloaf.com/blog/xcode-test-plans/)
+[Xcode Test Plans](https://useyourloaf.com/blog/xcode-test-plans/)  
+[XCode TestPlan: specify which configuration to use from command line](https://stackoverflow.com/questions/69563768/xcode-testplan-specify-which-configuration-to-use-from-command-line)
  
 # ResultBundle
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 1편 - 통합 UI테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-1/)  
@@ -179,7 +189,6 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 [AXSnapshot](https://github.com/banksalad/AXSnapshot/blob/main/Sources/AXSnapshot/AXSnapshot.swift)  
 
 [xcparse](https://github.com/ChargePoint/xcparse)  
-
 
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 3편 - 스펙별 단위 테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-3/)  
 
@@ -196,7 +205,7 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 [How to Automate XCTests With GitHub Actions](https://betterprogramming.pub/how-to-automate-xctests-with-github-actions-6570fcd21519)  
 
 ## starter-workflows
-[starter-workflows](https://github.com/actions/starter-workflows/issues)  
+[starter-workflows](https://github.com/actions/starter-workflows/tree/main/ci)  
 
 ## marketplace
 [Setup Xcode version](https://github.com/marketplace/actions/setup-xcode-version)
@@ -205,6 +214,12 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 ## setup
 [GitbugAction1](https://eeyatho.tistory.com/89?category=976382)  
 [GitbugAction2](https://eeyatho.tistory.com/105)  
+[1. GitHub Action 개념, 기능 (CI/CD)](https://ios-development.tistory.com/788)  
+[2. GitHub Action 사용 방법 (CI/CD)](https://ios-development.tistory.com/789)
+[Github Actions 시작해보기](https://zeddios.tistory.com/825)  
+[GitHub Actions로 간단히 CI 서버 대신하기](https://huns.me/posts/2019-12-17-34)  
+[[Github Actions] 테스트 커버리지 보여주기 기록](https://eunjin3786.tistory.com/206)  
+[GitHub Actions를 이용한 iOS 배포 파이프라인 자동화 구축하기](https://blog.mathpresso.com/github-actions%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-ios-%EB%B0%B0%ED%8F%AC-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EC%9E%90%EB%8F%99%ED%99%94-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-3319696005e2)  
 
 ## schedule
 [Github 액션으로 스케쥴링 작업하기](https://yceffort.kr/2020/07/cron-job-with-github-actions)
