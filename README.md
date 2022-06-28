@@ -181,15 +181,10 @@ Find: Target Application 'com.swiftman.XCUITest-study'
  
 # ResultBundle
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 1편 - 통합 UI테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-1/)  
-
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 2편 - 화면 단위 통합 테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-2/)  
-
 [swift-snapshot-testing](https://github.com/pointfreeco/swift-snapshot-testing)  
-
 [AXSnapshot](https://github.com/banksalad/AXSnapshot/blob/main/Sources/AXSnapshot/AXSnapshot.swift)  
-
 [xcparse](https://github.com/ChargePoint/xcparse)  
-
 [뱅크샐러드 iOS팀이 숨쉬듯이 테스트코드 짜는 방식 3편 - 스펙별 단위 테스트](https://blog.banksalad.com/tech/test-in-banksalad-ios-3/)  
 
 # GithubAction
@@ -201,7 +196,6 @@ Find: Target Application 'com.swiftman.XCUITest-study'
 ## UITesting
 [About self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners)  
 [Swift UI Testing on GitHub Actions CI](https://medium.com/swlh/swift-ui-testing-on-github-actions-ci-6267e6620104)  
-
 [How to Automate XCTests With GitHub Actions](https://betterprogramming.pub/how-to-automate-xctests-with-github-actions-6570fcd21519)  
 
 ## starter-workflows
